@@ -77,14 +77,12 @@ function BecomeTeacher() {
         <div className="teach-head">
           <h1>Apply As Instructor</h1>
 
-          <p>
-          Lorem ipsum dolor sit amet, consectetur
-          </p>
+          
         </div>
 
         <div className="teach-content">
 
-            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <p>Being an instructor is an incredibly rewarding career – it’s all about providing knowledge to others and seeing them take off with it. If you’re passionate about teaching, patient, and have a great affinity for knowledge, then you should consider becoming an instructor.</p>
             <img src={require("../images/Teacher/main.jpg")} alt="img" />
         </div>
       </section>
@@ -93,9 +91,7 @@ function BecomeTeacher() {
       <div className="teach-head">
           <h1>How to become a teacher</h1>
 
-          <p>
-          Lorem ipsum dolor sit amet, consectetur
-          </p>
+          
         </div>
         <div className="teacher-form">
             

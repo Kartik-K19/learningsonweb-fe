@@ -3,6 +3,8 @@ import '../styles/contact.css';
 import Footer from '../components/Footer';
 import Title from '../components/Title';
 import { API } from '../constant';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
 
@@ -52,8 +54,29 @@ function Contact() {
       if (res?.error) {
         throw res?.error;
       }
+      else{
+        toast.success('Message Sent', {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          });
+      }
     } catch (error) {
-      console.error(error);
+      toast.error('Some error occured', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
     
     }
     setFormValues({

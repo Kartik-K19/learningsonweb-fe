@@ -39,8 +39,8 @@ function Event() {
         </div>
         <div className='e-body-center'>
             <h1>Applying Natural Laws to Technology and Society</h1>
-            <span>8:00 AM - 5:00 PM  NEWYORK, USA</span>
-            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+            <span>8:00 AM - 5:00 PM CHENNAI, INDIA</span>
+            <p>Applying natural laws to technology and society is an area of study that focuses on the use of physical and mathematical principles to develop solutions that help improve everyday life.</p>
         </div>
         <div className='e-body-right'>
           <img src={require('../images/event.jpg')} alt='image'/>
@@ -55,8 +55,8 @@ function Event() {
         </div>
         <div className='e-body-center'>
             <h1>Managing Time for Study</h1>
-            <span> 8:00 AM - 5:00 PM  PARIS, FRENCH</span>
-            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+            <span> 8:00 AM - 5:00 PM  DELHI, INDIA</span>
+            <p>It can be overwhelming and challenging to fit in studying while also attending classes, participating in activities and taking care of regular responsibilities.</p>
         </div>
         <div className='e-body-right'>
           <img src={require('../images/event2.jpg')} alt='image'/>
@@ -71,8 +71,8 @@ function Event() {
         </div>
         <div className='e-body-center'>
             <h1>Autumn Science Lectures</h1>
-            <span> 8:00 AM - 5:00 PM  VENICE, ITALY</span>
-            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+            <span> 8:00 AM - 5:00 PM  Mumbai, INDIA</span>
+            <p>At our Autumn Science Lectures, we offer a variety of lectures to the public that cover a wide range of topics in science.</p>
         </div>
         <div className='e-body-right'>
           <img src={require('../images/event.jpg')} alt='image'/>

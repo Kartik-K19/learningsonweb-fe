@@ -9,6 +9,8 @@ import img6 from '../images/e3.jpg'
 import Footer from './Footer'
 import { Context } from '../Context/context'
 import { API,BACKEND_URL} from '../constant'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Home() {
 
@@ -68,8 +70,29 @@ const onFinish = async (values) => {
     if (res?.error) {
       throw res?.error;
     }
+    else{
+      toast.success('Message Sent', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+    }
   } catch (error) {
-    console.error(error);
+    toast.error('Some error occured', {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
   
   }
   setFormValues({
@@ -176,7 +199,7 @@ const onFinish = async (values) => {
             <img src={require('../images/experience.png')} alt='experience'/>
             <div className='why-card-head'><h2>Highly Experienced</h2></div>
             <div className="why-card-content">
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+            <p>An individual with extensive experience is one who has a broad base of knowledge and skills in a particular area and who has been involved in that area for a significant period of time.</p>
             </div>
             
          </div>
@@ -184,7 +207,7 @@ const onFinish = async (values) => {
          <img src={img4} alt='quiz'/>
             <div className='why-card-head'><h2>Question, Quiz & Course</h2></div>
             <div className="why-card-content">
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+            <p>With a quiz-style course, students will receive feedback tailored to their needs by providing them with questions that are personalized to their learning preferences.</p>
             </div>
             
          </div>
@@ -192,7 +215,7 @@ const onFinish = async (values) => {
          <img src={img5} alt='chat'/>
             <div className='why-card-head'><h2>Dedicated Support</h2></div>
             <div className="why-card-content">
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+            <p>Dedicated support is a type of customer service support in which customers receive individualized and personalized service and support from a dedicated team or individual.</p>
             </div>
             
          </div>
@@ -218,8 +241,8 @@ const onFinish = async (values) => {
         </div>
         <div className='e-body-center'>
             <h1>Applying Natural Laws to Technology and Society</h1>
-            <span>8:00 AM - 5:00 PM  NEWYORK, USA</span>
-            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+            <span>8:00 AM - 5:00 PM  CHENNAI, INDIA</span>
+            <p>Applying natural laws to technology and society is an area of study that focuses on the use of physical and mathematical principles to develop solutions that help improve everyday life.</p>
         </div>
         <div className='e-body-right'>
           <img src={require('../images/event.jpg')} alt='image'/>
@@ -234,8 +257,8 @@ const onFinish = async (values) => {
         </div>
         <div className='e-body-center'>
             <h1>Managing Time for Study</h1>
-            <span> 8:00 AM - 5:00 PM  PARIS, FRENCH</span>
-            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+            <span> 8:00 AM - 5:00 PM  DELHI, INDIA</span>
+            <p>It can be overwhelming and challenging to fit in studying while also attending classes, participating in activities and taking care of regular responsibilities.</p>
         </div>
         <div className='e-body-right'>
           <img src={require('../images/event2.jpg')} alt='image'/>

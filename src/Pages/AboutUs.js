@@ -11,7 +11,7 @@ function AboutUs() {
     <section>
       <div className='about-head'>
      <h1>Learn with passion to live with purpose.</h1>
-     <p>Neque convallis a cras semper auctor. Libero id faucibus nisl tincidunt egetnvallis a cras semper auctonvallis a cras semper aucto.</p>
+     
      </div>
     </section>
     <section className='about-cards'>
@@ -19,7 +19,7 @@ function AboutUs() {
 
       <div className="about-card">
             <img src={require('../images/About/globe.png')} alt='experience'/>
-            <div className='about-card-head'><h2>45632</h2></div>
+            <div className='about-card-head'><h2>3</h2></div>
             <div className="about-card-content">
             <p>Followers</p>
             </div>
@@ -27,7 +27,7 @@ function AboutUs() {
          </div>
          <div className="about-card">
          <img src={require('../images/About/board.png')} alt='quiz'/>
-            <div className='about-card-head'><h2>1125</h2></div>
+            <div className='about-card-head'><h2>10</h2></div>
             <div className="about-card-content">
            
             <p>Classes Complete</p>
@@ -36,7 +36,7 @@ function AboutUs() {
          </div>
          <div className="about-card">
          <img src={require('../images/About/employee.png')} alt='chat'/>
-            <div className='about-card-head'><h2>4653</h2></div>
+            <div className='about-card-head'><h2>6</h2></div>
             <div className="about-card-content">
            
             <p>Students Enrolled</p>
@@ -45,7 +45,7 @@ function AboutUs() {
          </div>
          <div className="about-card">
          <img src={require('../images/About/graduated.png')} alt='chat'/>
-            <div className='about-card-head'><h2>34</h2></div>
+            <div className='about-card-head'><h2>3</h2></div>
             <div className="about-card-content">
             
             <p>Certified Teachers</p>
@@ -57,7 +57,7 @@ function AboutUs() {
       <section className='special'>
       <div className='special-head'>
       <h1>What Makes us Special?</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisc ing elit.</p>
+     
     </div>
           
   <div className='special-card-container'>
@@ -67,7 +67,7 @@ function AboutUs() {
           <img src={require('../images/About/about1.jpg')} alt='experience'/>
           <div className='special-card-head'><h2>Who we are</h2></div>
           <div className="special-card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>The e-learning website is to provide a comprehensive and accessible platform for individuals to acquire knowledge, develop skills, and enhance their educational journey through online learning.</p>
           </div>
           
       </div>
@@ -76,7 +76,7 @@ function AboutUs() {
           <div className='special-card-head'><h2>What do we do</h2></div>
           <div className="special-card-content">
           
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Our platform offers a wide range of courses and learning materials that cater to diverse interests, disciplines, and skill levels.</p>
           </div>
           
       </div>
@@ -84,7 +84,7 @@ function AboutUs() {
       <img src={require('../images/About/about3.jpg')} alt='chat'/>
           <div className='special-card-head'><h2>How it works</h2></div>
           <div className="special-card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Our user-friendly interface makes navigation intuitive and seamless. You can track your progress, participate in interactive quizzes and assignments, and collaborate with fellow learners through discussion forums.</p>
           
           </div>
       
