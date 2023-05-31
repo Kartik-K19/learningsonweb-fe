@@ -1,0 +1,96 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.profile-left{
+    height: 280px;;
+    width: 20%;
+    border: 1px solid;
+}
+.left-info{
+    height: 100%;
+}
+
+.info-head{
+    display: flex;
+    flex-direction: row;
+    
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 60px;
+}
+.info-head img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.left-info button{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+    border: 1px solid;
+    border-right: none;
+    border-bottom: none;
+    border-left: 3px solid #ffb606;
+    margin: 0px 0;
+}
+.left-info button:hover{
+    cursor: pointer;
+    border-left: 4px solid #ffb606;
+}
+
+.profile-right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.right-info-head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.profile-head-info{
+    width: 150px;
+    background-color: #f9fafc;
+    height: 120px;
+    padding: 20px;
+}
+.profile-head-info h2,.profile-head-info p{
+    text-align: center;
+}
+
+.profile-right hr{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.right-info-body{
+    width: 100%;
+}
+.course-status{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #f4f4f5;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+  }

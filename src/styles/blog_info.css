@@ -1,0 +1,26 @@
+.b-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.b-left{
+    width: 65%;
+}
+
+.b-info-head img{
+    width: 100%;
+    height: 550px;
+}
+.b-sum-info{
+    margin-right: 80px;
+    font-size: 1.1rem;
+}
+.b-overview{
+    margin: 60px 0;
+}

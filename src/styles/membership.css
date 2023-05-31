@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.membership h2{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.membership{
+    padding: 40px 0;
+}
+
+.member-card {
+	margin: 50px;
+	width: 300px;
+	border-radius: 10px;
+	background: #fff;
+}
+.member-card{
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4),
+					0 0 10px rgba(0,0,0,0.3);
+}
+.member-card:nth-child(1){
+	border-top: 5px solid green;
+}
+.member-card:nth-child(2){
+	border-top: 5px solid blue;
+}
+.member-card:nth-child(3){
+	border-top:  5px solid rgb(255, 215, 0);
+}
+.member-card:nth-child(4){
+	border-top:  5px solid rgb(225, 0, 255);
+}
+.member-card:nth-child(1):hover {
+	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
+				1px 1px 30px rgba(0,255,0,0.5);
+}
+.member-card:nth-child(2):hover {
+	box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+				1px 1px 30px rgba(0,0,255,0.5);
+}
+.member-card:nth-child(3):hover {
+	box-shadow: inset 0px 0px 10px rgba(255, 230, 0, 0.755),
+	1px 1px 30px rgba(255, 217, 0, 0.885);
+}
+.member-card:nth-child(4):hover {
+	box-shadow: inset 0px 0px 10px rgba(225, 0, 255,0.5),
+	1px 1px 30px rgba(225, 0, 255,0.5);
+}
+
+
+.member-card {
+	margin: 50px;
+	width: 300px;
+	border-radius: 10px;
+	background: #fff;
+}
+.member-card{
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4),
+					0 0 10px rgba(0,0,0,0.3);
+}
+.member-card:nth-child(1){
+	border-top: 5px solid green;
+}
+.member-card:nth-child(2){
+	border-top: 5px solid blue;
+}
+.member-card:nth-child(3){
+	border-top:  5px solid rgb(255, 215, 0);
+}
+.member-card:nth-child(4){
+	border-top:  5px solid rgb(255, 0, 247);
+}
+.member-card:nth-child(1):hover {
+	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
+				1px 1px 30px rgba(0,255,0,0.5);
+}
+.member-card:nth-child(2):hover {
+	box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+				1px 1px 30px rgba(0,0,255,0.5);
+}
+.member-card:nth-child(3):hover {
+	box-shadow: inset 0px 0px 10px rgba(255, 230, 0, 0.755),
+	1px 1px 30px rgba(255, 217, 0, 0.885);
+}
+.member-card:nth-child(4):hover {
+	box-shadow: inset 0px 0px 10px rgba(255, 0, 247,0.5),
+	1px 1px 30px rgba(255, 0, 247,0.5);
+}
+
+
+
+.member-section{
+    padding: 50px 0;
+    background-color: #f3f3f3;
+}
+.member-section h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #3b4650;
+}
+
+.member-container {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.member-card{
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	border-radius: 5px;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	transition: all .3s ease;
+}
+
+.member-card:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,.2);
+	transform: scale(1.05);
+}
+
+.member-card h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.member-card p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+.member-card .price {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: #2E3D49;;
+}
+
+.member-card .btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ffb606;
+	color: #202020;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all .4s ease;
+	float: none;
+    font-weight: 600;
+}
+
+
+.member-card .btn:hover {
+	opacity: 0.9;
+}
+
+@media screen and (max-width: 900px){
+	.title-container{
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media screen and (max-width: 768px) {
+	.member-container {
+	  justify-content: center;
+	}
+  
+	.member-card {
+	  margin: 10px;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	.member-card {
+	  width: 100%;
+	}
+  }
+
+  

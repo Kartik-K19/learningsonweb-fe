@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.event-class{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),  url('../images/Event/event-bg.jpg');
+   background-repeat: no-repeat;
+   height: 300px;
+   background-position: center;
+    background-size: cover;
+
+}
+.ev-container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    /* margin-top: 60px; */
+    align-items: center;
+    
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.event-left h1{
+    font-size: 2.4rem;
+    border-left: 4px solid #ffb606;
+    padding-left: 20px;
+}
+
+.ev-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ev-body-head{
+    width: 40%;
+    margin-top:65px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.ev-body-head a{
+    padding: 20px 0;
+}
+.vertical-line {
+    
+    border-left: 2px solid black;
+    height: 20px;
+    opacity: 0.2;
+}
+.ev-body hr{
+    width: 1300px;
+    opacity: 0.2;
+}
+
+.event-container{
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 1340px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.event-container hr{
+  width: 100%;
+  opacity: 0.2;
+  margin: 50px 0;
+}
+
+.event-head{
+    margin-top: 80px;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-head-right a{
+    border: 1px solid #8080804d;
+    padding: 8px 18px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.event-head-right a:hover{
+    border: 1px solid #ffb606;
+    cursor: pointer;
+}
+
+.event-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.e-body-left{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.e-body-left h1{
+    color: #ffb606;
+    font-size: 3.2rem;
+}
+
+.e-body-center h1{
+    font-weight: 500;
+}
+.e-body-right{
+    width: 270px;
+    height: 140px;
+}
+.e-body-right img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+@media only screen and (max-width: 900px) {
+    .membership {
+      padding: 0px;
+    }
+    .member-card {
+      width: 100%;
+      margin-top: 40px;
+  }
+     
+      .teacher-form form input {
+        width: 100%;
+        margin: 12px 0;
+        height: 30px;
+    }
+      
+    
+      .event-left h1 {
+        font-size: 2rem;
+        margin: 20px;
+      }
+    
+      .ev-body-head {
+        width: 100%;
+        margin-top: 30px;
+      }
+    
+      .ev-body hr {
+        width: 100%;
+      }
+    
+      .event-container {
+        margin: 30px auto;
+      }
+    
+      .event-container hr {
+        margin: 30px 0;
+      }
+    
+      .event-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .event-body {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .e-body-left {
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+    
+      .e-body-center h1 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+      }
+      .e-body-center span {
+          margin-bottom: 5px;
+        }
+      .e-body-right {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    }
+    
+    /* Media Queries for Tablet */
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .ev-body-head {
+        width: 70%;
+      }
+    
+      .event-body {
+        flex-wrap: nowrap;
+      }
+    
+      .e-body-right {
+        width: 180px;
+        height: 100px;
+      }
+    }

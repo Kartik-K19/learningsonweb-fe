@@ -1,0 +1,17 @@
+.comment-form h4{
+    margin: 20px 0;
+}
+
+.comment-form input{
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.comment-form button{
+    padding: 10px 20px;
+    background-color: #ffb606;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}

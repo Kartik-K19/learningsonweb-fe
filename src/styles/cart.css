@@ -1,0 +1,23 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: 18px;
+    padding: 40px 0;
+}
+.payment{
+    padding: 10px 20px;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+.payment:hover{
+    background-color: #ffae00;
+    scale: 1.05;
+}

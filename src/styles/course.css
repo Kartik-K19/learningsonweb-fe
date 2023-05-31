@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+.c-right{
+    width: 25%;
+}
+.c-info-card{
+    display: flex;
+    height: 400px;
+    width:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin-bottom: 80px;
+    
+}
+.reg-cart{
+    display: flex;
+    flex-direction: column;
+}
+
+.c-info-card button{
+    padding: 10px 20px;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+.c-info-card button:hover{
+        background-color: #ffae00;
+        scale: 1.05;
+}
+.c-feature-card{
+    display: flex;
+    height: 385px;
+    width:100%;
+    flex-direction: column;
+    
+    align-content: center;
+    
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin-bottom: 80px;
+    padding: 40px 0;
+}
+.feature-menu{
+    margin-top: 20px;
+    width: 80%;
+}
+.f-menu-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+}
+.f-menu-item p{
+    font-size: 1.1rem;
+}
+
+.c-menu{
+    display: flex;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.c-menu a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+
+.c-left{
+    width: 65%;
+}
+.course-info-head img{
+    width: 100%;
+    height: auto;
+}
+
+.c-sum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+.c-sum-info{
+    margin-right: 80px;
+    font-size: 1.1rem;
+}
+.c-overview{
+    margin: 60px 0;
+}
+
+.c-overview h2, .c-overview h4{
+    margin-bottom: 20px;
+}
+
+.instructor{
+    margin: 40px 0;
+}
+.ins-card{
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 870px){
+    .c-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-right{
+        width: 80%;
+    }
+}
