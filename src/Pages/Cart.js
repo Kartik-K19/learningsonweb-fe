@@ -19,7 +19,7 @@ function Cart() {
   console.log(cartItems)
   const authToken = getToken()
   const makePaymentRequest = axios.create({
-    baseURL:BACKEND_URL,
+    baseURL:API,
     headers:{
       Authorization: "Bearer "+ authToken,
     },
@@ -31,7 +31,7 @@ function Cart() {
  const handlePayment = async()=>{
       try {
         const stripe = await stripePromise;
-        const res = await makePaymentRequest.post("/api/orders",{
+        const res = await makePaymentRequest.post("/orders",{
           courses: cartItems,
         })
         console.log(res)
