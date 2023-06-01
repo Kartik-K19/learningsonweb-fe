@@ -746,8 +746,9 @@ form textarea {
         margin: 0 auto;
     }
     .why-card{
-        width: 80%;
+        width: 100%;
         margin: 10px auto;
+        height: 400px;
     }
     .banner-content h1{
         width: 100%;
